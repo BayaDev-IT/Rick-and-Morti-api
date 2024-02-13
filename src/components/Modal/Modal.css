@@ -1,0 +1,30 @@
+.modal {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.5);
+    backdrop-filter: blur(15px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal_container {
+    width: 50%;
+    height: 60%;
+    background: orange;
+    border-radius: 15px;
+    overflow: auto;
+    position: relative;
+    padding: 20px;
+}
+
+.close {
+    font-size: 40px;
+    cursor: pointer;
+    position: absolute;
+    top: 0;
+    right: 20px;
+}
